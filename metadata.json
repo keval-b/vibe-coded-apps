@@ -1,0 +1,5 @@
+{
+  "name": "Purrfect Pounce",
+  "description": "An interactive sensory game for cats featuring realistic prey movement, dynamic audio, and hiding mechanics. Supports touch and keyboard interaction.",
+  "requestFramePermissions": []
+}

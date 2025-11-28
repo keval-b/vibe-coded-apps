@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Purrfect Pounce</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #e8ecef;
+      touch-action: none; /* Prevent zooming/scrolling on taps */
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    #root {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "react": "https://aistudiocdn.com/react@^19.2.0"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+</html>
